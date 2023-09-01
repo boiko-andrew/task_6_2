@@ -30,7 +30,6 @@ public class Main {
         }
         for (Thread thread : threadList) {
             thread.start();
-            thread.join();
         }
 
         printer.interrupt();
